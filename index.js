@@ -2,7 +2,7 @@
 function scuberGreetingForFeet(someValue) {
   let statement = ''
   if (someValue < 2500) {
-    return 'No can do.'
+    statement = 'No can do.'
   } else if (someValue < 2000) {
     return
   }
